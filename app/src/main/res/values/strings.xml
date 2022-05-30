@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">trabalhoambientesmoveis</string>
-    <string name="seja_n_bem_vindo">bem-vindo</string>
-    <string name="insira_abaixo_os_dados_corretamente">Insira seus dados abaixo corretamente</string>
     <string name="e_mail">E-mail</string>
     <string name="digite_seu_email">Digite seu email...</string>
     <string name="digite_sua_senha">Digite sua senha...</string>
@@ -9,4 +7,15 @@
     <string name="entrar">Entrar</string>
     <string name="esqueci_minha_senha">Esqueci minha senha</string>
     <string name="crie_sua_conta">Crie sua conta</string>
+    <string name="recuperar_senha">Recuperar senha</string>
+    <string name="insira_seus_dados_corretamente">Insira seus dados corretamente</string>
+    <string name="seja_bem_vindo">Seja bem-vindo(a)</string>
+    <string name="insira_seu_e_mail_cadastrado_no_nosso_app_que_enviaremos_uma_nova_senha_para_seu_cadastro">Insira seu E-mail cadastrado no nosso app que enviaremos uma nova senha para seu cadastro</string>
+    <string name="recupere_sua_senha">Recupere sua Senha</string>
+    <string name="enviar_nova_senha">Enviar nova senha</string>
+    <string name="crie_uma_conta">Crie uma conta</string>
+    <string name="registre_se">Registre-se</string>
+    <string name="digite_seu_nome">Digite seu nome...</string>
+    <string name="nome">Nome</string>
+    <string name="criar">Criar</string>
 </resources>

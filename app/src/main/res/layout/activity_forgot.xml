@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.HomeActivity"
+    android:background="@color/DarkGrey">
+
+    <ImageButton
+        android:id="@+id/backIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/transparent"
+        android:src="@drawable/backicon">
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/recuperarsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:textSize="16sp"
+        android:text="@string/recuperar_senha"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/Orange">
+    </TextView>
+
+    <TextView
+        android:id="@+id/labelTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/recupere_sua_senha"
+        android:textSize="30sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/Orange"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/labelTopDescription"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelTop"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/insira_seu_e_mail_cadastrado_no_nosso_app_que_enviaremos_uma_nova_senha_para_seu_cadastro"
+        android:textSize="17sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/WhiteLow"
+        android:textAllCaps="false"
+        android:textStyle="normal">
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/relativeEmail"
+        android:layout_width="335dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/labelTopDescription"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/background_textboxlayout">
+
+        <TextView
+            android:id="@+id/labelEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_mail"
+            android:layout_marginTop="8.4dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.3dp"
+            android:layout_marginHorizontal="20dp"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:hint="@string/digite_seu_email"
+            android:background="@color/transparent"
+            android:textColor="@color/black">
+        </EditText>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnForgot"
+        android:layout_below="@+id/relativeEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:text="@string/enviar_nova_senha"
+        android:textColor="@color/DarkGrey"
+        android:textSize="15sp"
+        android:background="@drawable/background_btnbox">
+    </Button>
+
+</RelativeLayout>

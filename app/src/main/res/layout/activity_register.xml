@@ -7,50 +7,86 @@
     tools:context=".ui.activities.HomeActivity"
     android:background="@color/DarkGrey">
 
-    <ImageView
-        android:id="@+id/ImageTop"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/logo"
-        android:background="@color/DarkGrey">
-    </ImageView>
+    <ImageButton
+        android:id="@+id/backIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/transparent"
+        android:src="@drawable/backicon">
+    </ImageButton>
 
     <TextView
-        android:id="@+id/labelTopDescriptionOrange"
+        android:id="@+id/LabelCreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ImageTop"
-        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:textSize="16sp"
+        android:text="@string/crie_uma_conta"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/Orange">
+    </TextView>
+
+    <TextView
+        android:id="@+id/labelTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:text="@string/seja_bem_vindo"
-        android:textSize="20sp"
-        android:fontFamily="@font/roboto_bold"
+        android:layout_marginTop="160dp"
+        android:text="@string/registre_se"
+        android:textSize="30sp"
+        android:fontFamily="@font/roboto_medium"
         android:textColor="@color/Orange"
+        android:textStyle="bold"
         android:textAllCaps="false"
-        android:textStyle="bold">
+        android:textAlignment="center">
     </TextView>
 
-    <TextView
-        android:id="@+id/labelTopDescriptionWhite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/labelTopDescriptionOrange"
-        android:layout_marginLeft="40dp"
-        android:text="@string/insira_seus_dados_corretamente"
-        android:textSize="20sp"
-        android:fontFamily="@font/roboto_bold"
-        android:textColor="@color/WhiteLow"
-        android:textAllCaps="false"
-        android:textStyle="bold">
-    </TextView>
+    <RelativeLayout
+        android:id="@+id/relativeName"
+        android:layout_width="335dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/labelTop"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/background_textboxlayout">
+
+        <TextView
+            android:id="@+id/labelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"
+            android:layout_marginTop="8.4dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.3dp"
+            android:layout_marginHorizontal="20dp"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:hint="@string/digite_seu_nome"
+            android:background="@color/transparent"
+            android:textColor="@color/black">
+        </EditText>
+
+    </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/relativeEmail"
         android:layout_width="335dp"
         android:layout_height="64dp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/labelTopDescriptionOrange"
-        android:layout_marginTop="70dp"
+        android:layout_below="@+id/relativeName"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_textboxlayout">
 
         <TextView
@@ -117,45 +153,17 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegister"
         android:layout_below="@+id/relativePassword"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:textAllCaps="false"
-        android:text="@string/entrar"
+        android:text="@string/criar"
         android:textColor="@color/DarkGrey"
         android:textSize="15sp"
         android:background="@drawable/background_btnbox">
-    </Button>
-
-    <Button
-        android:id="@+id/btnForgot"
-        android:layout_below="@+id/btnLogin"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:textAllCaps="false"
-        android:text="@string/esqueci_minha_senha"
-        android:textColor="@color/Orange"
-        android:textSize="15sp"
-        android:background="@color/transparent">
-    </Button>
-
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_below="@+id/btnForgot"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:textAllCaps="false"
-        android:text="@string/crie_sua_conta"
-        android:textColor="@color/Orange"
-        android:textSize="15sp"
-        android:background="@color/transparent">
     </Button>
 
 </RelativeLayout>
