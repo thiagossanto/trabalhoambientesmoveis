@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.HomeActivity"
+    android:background="@color/DarkGrey">
+
+    <TextView
+        android:id="@+id/labelTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/seja_n_bem_vindo"
+        android:textSize="35sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/Orange"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/labelTopDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelTop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/insira_abaixo_os_dados_corretamente"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/WhiteLow"
+        android:textAllCaps="false"
+        android:textStyle="normal">
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/relativeEmail"
+        android:layout_width="335dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/labelTopDescription"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/background_textboxlayout">
+
+        <TextView
+            android:id="@+id/labelEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_mail"
+            android:layout_marginTop="8.4dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.3dp"
+            android:layout_marginHorizontal="20dp"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:hint="@string/digite_seu_email"
+            android:background="@color/transparent"
+            android:textColor="@color/black">
+        </EditText>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativePassword"
+        android:layout_width="335dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relativeEmail"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_textboxlayout">
+
+        <TextView
+            android:id="@+id/labelPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/senha"
+            android:layout_marginTop="8.4dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.3dp"
+            android:layout_marginHorizontal="20dp"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:hint="@string/digite_sua_senha"
+            android:background="@color/transparent"
+            android:textColor="@color/black">
+        </EditText>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/relativePassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:text="@string/entrar"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/background_btnbox">
+    </Button>
+
+    <Button
+        android:id="@+id/btnEsqueciasenha"
+        android:layout_below="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:text="@string/esqueci_minha_senha"
+        android:textColor="@color/Orange"
+        android:textSize="15sp"
+        android:background="@color/transparent">
+    </Button>
+
+    <Button
+        android:id="@+id/btnCriesuaconta"
+        android:layout_below="@+id/btnEsqueciasenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:text="@string/crie_sua_conta"
+        android:textColor="@color/Orange"
+        android:textSize="15sp"
+        android:background="@color/transparent">
+    </Button>
+
+</RelativeLayout>

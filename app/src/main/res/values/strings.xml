@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">trabalhoambientesmoveis</string>
+    <string name="seja_n_bem_vindo">Seja \n bem-vindo</string>
+    <string name="insira_abaixo_os_dados_corretamente">Insira abaixo os dados corretamente</string>
+    <string name="e_mail">E-mail</string>
+    <string name="digite_seu_email">Digite seu email...</string>
+    <string name="digite_sua_senha">Digite sua senha...</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="crie_sua_conta">Crie sua conta</string>
 </resources>
