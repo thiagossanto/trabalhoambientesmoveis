@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:text="@string/seja_n_bem_vindo"
         android:textSize="35sp"
         android:fontFamily="@font/roboto_medium"
@@ -43,7 +43,7 @@
         android:layout_height="64dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/labelTopDescription"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/background_textboxlayout">
 
         <TextView
@@ -113,7 +113,7 @@
         android:id="@+id/btnLogin"
         android:layout_below="@+id/relativePassword"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:textAllCaps="false"
@@ -141,7 +141,7 @@
         android:id="@+id/btnCriesuaconta"
         android:layout_below="@+id/btnEsqueciasenha"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:textAllCaps="false"
