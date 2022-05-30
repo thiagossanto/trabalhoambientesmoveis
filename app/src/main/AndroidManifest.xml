@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Trabalhoambientesmoveis">
         <activity
+            android:name=".ui.activities.InitialActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.activities.RegisterActivity"
             android:exported="false" />
         <activity
