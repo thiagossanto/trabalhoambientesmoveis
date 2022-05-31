@@ -4,12 +4,15 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 31 // facul
+//    compileSdk 32 // casa
 
     defaultConfig {
         applicationId "br.com.cotemig.trabalho.trabalhoambientesmoveis"
-        minSdk 22
-        targetSdk 32
+        minSdk 21 // facul
+//        minSdk 22 // casa
+        targetSdk 31 // facul
+//        targetSdk 32 // casa
         versionCode 1
         versionName "1.0"
 
