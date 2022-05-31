@@ -1,8 +1,10 @@
 package br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import android.widget.ImageButton
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.R
 
 class InitialActivity : AppCompatActivity() {
