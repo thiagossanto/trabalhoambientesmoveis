@@ -26,15 +26,14 @@
         android:id="@+id/name"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:text="colocar *name* aqui' puxar da api account"
         android:layout_centerHorizontal="true"
-        android:textSize="30sp"
+        android:layout_marginTop="140dp"
         android:fontFamily="@font/roboto_medium"
-        android:textColor="@color/WhiteLow"
-        android:textStyle="bold"
+        android:textAlignment="center"
         android:textAllCaps="false"
-        android:textAlignment="center">
+        android:textColor="@color/WhiteLow"
+        android:textSize="30sp"
+        android:textStyle="bold">
     </TextView>
 
     <TextView

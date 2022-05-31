@@ -1,6 +1,8 @@
 package br.com.cotemig.trabalho.trabalhoambientesmoveis.models
 
-class Account {
+import java.io.Serializable
+
+class Account : Serializable {
 
     var name: String = ""
     var email: String = ""

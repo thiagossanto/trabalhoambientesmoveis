@@ -85,7 +85,7 @@ class HomeActivity : AppCompatActivity() {
     fun startInitial(account: Account){
 
         var intent = Intent(this, InitialActivity::class.java)
-        intent.putExtra("token", account.token)
+        intent.putExtra("account", account)
         startActivity(intent)
 
     }
