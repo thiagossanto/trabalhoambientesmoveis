@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:text="@string/escolha_uma_categoria_abaixo_para_seguir_a_navega_o"
         android:textAlignment="center"
         android:textSize="18sp"
@@ -55,7 +55,7 @@
     <ListView
         android:id="@+id/listCategory"
         android:layout_below="@id/labelDescription"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:layout_width="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_height="match_parent"

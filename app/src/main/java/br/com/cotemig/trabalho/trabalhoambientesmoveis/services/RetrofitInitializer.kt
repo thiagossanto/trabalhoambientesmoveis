@@ -5,17 +5,31 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitInitializer {
 
-    private val URL = "https://api.falaai.app/v1/"
+    private val URLcadastro = "https://api.falaai.app/v1/"
 
-    private val retrofit =
+    private val retrofit1 =
         Retrofit.Builder()
-            .baseUrl(URL)
+            .baseUrl(URLcadastro)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
     fun ServiceAccount(): ServiceAccount {
 
-        return retrofit.create(ServiceAccount::class.java)
+        return retrofit1.create(ServiceAccount::class.java)
+
+    }
+
+    private val URLtypes = "https://run.mocky.io/v3/"
+
+    private val retrofit2 =
+        Retrofit.Builder()
+            .baseUrl(URLtypes)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+
+    fun ServiceMenu(): ServiceMenu {
+
+        return retrofit2.create(ServiceMenu()::class.java)
 
     }
 
