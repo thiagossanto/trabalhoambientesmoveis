@@ -29,7 +29,7 @@ class RetrofitInitializer {
 
     fun ServiceMenu(): ServiceMenu {
 
-        return retrofit2.create(ServiceMenu()::class.java)
+        return retrofit2.create(ServiceMenu::class.java)
 
     }
 

@@ -1,8 +1,10 @@
 package br.com.cotemig.trabalho.trabalhoambientesmoveis.models
 
-class Menu {
+import java.io.Serializable
+
+class Menu : Serializable{
 
     var type: String = ""
-    var code: Int = 0
+    var image: String = ""
 
 }
