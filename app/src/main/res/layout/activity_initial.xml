@@ -13,13 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:fontFamily="@font/roboto_medium"
         android:text="@string/seja_bem_vindo"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/Orange"
         android:textSize="30sp"
-        android:textStyle="bold"></TextView>
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/Orange"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textAlignment="center">
+    </TextView>
 
     <TextView
         android:id="@+id/name"
@@ -41,43 +42,80 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:fontFamily="@font/roboto_medium"
+        android:layout_marginTop="60dp"
         android:text="@string/escolha_uma_categoria_abaixo_para_seguir_a_navega_o"
         android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/WhiteLow"
         android:textSize="18sp"
-        android:textStyle="normal"></TextView>
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/WhiteLow"
+        android:textAllCaps="false"
+        android:textStyle="normal">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ImagePilsen"
+        android:layout_below="@+id/labelDescription"
+        android:layout_width="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icone_cerveja"
+        android:background="@color/DarkGrey">
+    </ImageView>
 
     <Button
         android:id="@+id/btnPilsen"
         android:layout_below="@+id/labelDescription"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="90dp"
         android:layout_width="90dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:textAllCaps="false"
+        android:fontFamily="@font/roboto_bold"
         android:text="@string/pilsen"
         android:textColor="@color/DarkGrey"
         android:textSize="16sp"
         android:background="@drawable/background_btnbox">
     </Button>
 
+    <ImageView
+        android:id="@+id/ImageLager"
+        android:layout_below="@+id/labelDescription"
+        android:layout_width="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_cerveja2"
+        android:background="@color/DarkGrey">
+    </ImageView>
+
     <Button
         android:id="@+id/btnLager"
         android:layout_below="@+id/labelDescription"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:layout_alignParentRight="true"
         android:layout_marginRight="90dp"
         android:layout_width="90dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:textAllCaps="false"
         android:text="@string/lager"
+        android:fontFamily="@font/roboto_bold"
         android:textColor="@color/DarkGrey"
         android:textSize="16sp"
         android:background="@drawable/background_btnbox">
     </Button>
+
+    <ImageView
+        android:id="@+id/ImagePuromalte"
+        android:layout_below="@+id/btnPilsen"
+        android:layout_width="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_cerveja3"
+        android:background="@color/DarkGrey">
+    </ImageView>
 
     <Button
         android:id="@+id/btnPuromalte"
@@ -85,7 +123,8 @@
         android:layout_marginTop="40dp"
         android:layout_marginLeft="90dp"
         android:layout_width="90dp"
-        android:layout_height="60dp"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_height="50dp"
         android:textAllCaps="false"
         android:text="@string/puro_malte"
         android:textColor="@color/DarkGrey"
@@ -93,14 +132,27 @@
         android:background="@drawable/background_btnbox">
     </Button>
 
+    <ImageView
+        android:id="@+id/ImageAmber"
+        android:layout_below="@+id/btnLager"
+        android:layout_width="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_cerveja4"
+        android:background="@color/DarkGrey">
+    </ImageView>
+
     <Button
         android:id="@+id/btnAmber"
         android:layout_below="@+id/btnLager"
         android:layout_marginTop="40dp"
         android:layout_alignParentRight="true"
         android:layout_marginRight="90dp"
+        android:fontFamily="@font/roboto_bold"
         android:layout_width="90dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:textAllCaps="false"
         android:text="@string/amber"
         android:textColor="@color/DarkGrey"
@@ -108,14 +160,26 @@
         android:background="@drawable/background_btnbox">
     </Button>
 
+    <ImageView
+        android:id="@+id/ImageIpa"
+        android:layout_below="@+id/btnIpa"
+        android:layout_width="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_cerveja5"
+        android:background="@color/DarkGrey">
+    </ImageView>
+
     <Button
         android:id="@+id/btnIpa"
         android:layout_below="@+id/btnPuromalte"
         android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
         android:layout_width="90dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:textAllCaps="false"
+        android:fontFamily="@font/roboto_bold"
         android:text="@string/ipa"
         android:textColor="@color/DarkGrey"
         android:textSize="16sp"
