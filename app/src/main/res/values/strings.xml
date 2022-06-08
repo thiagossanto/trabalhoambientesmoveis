@@ -19,4 +19,9 @@
     <string name="nome">Nome</string>
     <string name="criar">Criar</string>
     <string name="escolha_uma_categoria_abaixo_para_seguir_a_navega_o">Escolha uma categoria abaixo para seguir a navegação</string>
+    <string name="pilsen">Pilsen</string>
+    <string name="lager">Lager</string>
+    <string name="puro_malte">Puro Malte</string>
+    <string name="amber">Amber</string>
+    <string name="ipa">Ipa</string>
 </resources>

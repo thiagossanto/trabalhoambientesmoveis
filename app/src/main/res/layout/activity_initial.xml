@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:text="@string/escolha_uma_categoria_abaixo_para_seguir_a_navega_o"
         android:textAlignment="center"
         android:textSize="18sp"
@@ -52,14 +52,76 @@
         android:textStyle="normal">
     </TextView>
 
-    <ListView
-        android:id="@+id/listCategory"
-        android:layout_below="@id/labelDescription"
+    <Button
+        android:id="@+id/btnPilsen"
+        android:layout_below="@+id/labelDescription"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text="@string/pilsen"
+        android:textColor="@color/DarkGrey"
+        android:textSize="18sp"
+        android:background="@drawable/background_btnbox">
+    </Button>
+
+    <Button
+        android:id="@+id/btnLager"
+        android:layout_below="@+id/labelDescription"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="90dp"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text="@string/lager"
+        android:textColor="@color/DarkGrey"
+        android:textSize="18sp"
+        android:background="@drawable/background_btnbox">
+    </Button>
+
+    <Button
+        android:id="@+id/btnPuromalte"
+        android:layout_below="@+id/btnPilsen"
         android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
+        android:layout_marginLeft="90dp"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text="@string/puro_malte"
+        android:textColor="@color/DarkGrey"
+        android:textSize="18sp"
+        android:background="@drawable/background_btnbox">
+    </Button>
+
+    <Button
+        android:id="@+id/btnAmber"
+        android:layout_below="@+id/btnLager"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="90dp"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text="@string/amber"
+        android:textColor="@color/DarkGrey"
+        android:textSize="18sp"
+        android:background="@drawable/background_btnbox">
+    </Button>
+
+    <Button
+        android:id="@+id/btnIpa"
+        android:layout_below="@+id/btnPuromalte"
+        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_height="match_parent"
-        android:divider="@color/transparent">
-    </ListView>
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text="@string/ipa"
+        android:textColor="@color/DarkGrey"
+        android:textSize="18sp"
+        android:background="@drawable/background_btnbox">
+    </Button>
 
 </RelativeLayout>

@@ -19,18 +19,4 @@ class RetrofitInitializer {
 
     }
 
-    private val URLtypes = "https://run.mocky.io/v3/"
-
-    private val retrofit2 =
-        Retrofit.Builder()
-            .baseUrl(URLtypes)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-
-    fun ServiceMenu(): ServiceMenu {
-
-        return retrofit2.create(ServiceMenu::class.java)
-
-    }
-
 }
