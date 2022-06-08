@@ -13,14 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:text="@string/seja_bem_vindo"
-        android:textSize="30sp"
         android:fontFamily="@font/roboto_medium"
-        android:textColor="@color/Orange"
-        android:textStyle="bold"
+        android:text="@string/seja_bem_vindo"
+        android:textAlignment="center"
         android:textAllCaps="false"
-        android:textAlignment="center">
-    </TextView>
+        android:textColor="@color/Orange"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
 
     <TextView
         android:id="@+id/name"
@@ -43,14 +42,13 @@
         android:layout_below="@+id/name"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
+        android:fontFamily="@font/roboto_medium"
         android:text="@string/escolha_uma_categoria_abaixo_para_seguir_a_navega_o"
         android:textAlignment="center"
-        android:textSize="18sp"
-        android:fontFamily="@font/roboto_medium"
-        android:textColor="@color/WhiteLow"
         android:textAllCaps="false"
-        android:textStyle="normal">
-    </TextView>
+        android:textColor="@color/WhiteLow"
+        android:textSize="18sp"
+        android:textStyle="normal"></TextView>
 
     <Button
         android:id="@+id/btnPilsen"
