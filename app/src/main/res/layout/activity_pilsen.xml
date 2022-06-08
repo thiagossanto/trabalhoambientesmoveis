@@ -7,6 +7,7 @@
     tools:context=".ui.activities.PilsenActivity"
     android:background="@color/DarkGrey">
 
+
     <ImageButton
         android:id="@+id/backIcon"
         android:layout_width="50dp"
@@ -14,8 +15,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:background="@color/transparent"
-        android:src="@drawable/backicon">
-    </ImageButton>
+        android:src="@drawable/backicon"></ImageButton>
 
     <TextView
         android:id="@+id/pilsen"
@@ -26,8 +26,7 @@
         android:fontFamily="@font/roboto_medium"
         android:text="@string/pilsen"
         android:textColor="@color/Orange"
-        android:textSize="16sp">
-    </TextView>
+        android:textSize="16sp"></TextView>
 
 
 
@@ -37,8 +36,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/backIcon"
         android:layout_marginTop="10dp"
-        android:divider="@color/transparente">
-    </ListView>
+        android:divider="@color/transparente"></ListView>
 
 
 </RelativeLayout>
