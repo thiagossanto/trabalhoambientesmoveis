@@ -15,6 +15,7 @@
         android:layout_marginTop="30dp"
         android:background="@color/transparent"
         android:src="@drawable/backicon">
+
     </ImageButton>
 
     <TextView
@@ -35,14 +36,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="160dp"
-        android:text="@string/recupere_sua_senha"
-        android:textSize="30sp"
         android:fontFamily="@font/roboto_medium"
-        android:textColor="@color/Orange"
-        android:textStyle="bold"
+        android:text="@string/recupere_sua_senha"
+        android:textAlignment="center"
         android:textAllCaps="false"
-        android:textAlignment="center">
-    </TextView>
+        android:textColor="@color/Orange"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
 
     <TextView
         android:id="@+id/labelTopDescription"

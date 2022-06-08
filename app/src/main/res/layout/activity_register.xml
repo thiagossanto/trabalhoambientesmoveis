@@ -23,11 +23,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
-        android:textSize="16sp"
-        android:text="@string/crie_uma_conta"
         android:fontFamily="@font/roboto_medium"
-        android:textColor="@color/Orange">
-    </TextView>
+        android:text="@string/crie_uma_conta"
+        android:textColor="@color/Orange"
+        android:textSize="16sp"></TextView>
 
     <TextView
         android:id="@+id/labelTop"
