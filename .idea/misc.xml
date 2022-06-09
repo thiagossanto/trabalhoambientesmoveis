@@ -3,12 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/activity_forgot.xml" value="0.35989583333333336" />
-        <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/activity_initial.xml" value="0.35989583333333336" />
-        <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/activity_pilsen.xml" value="0.35989583333333336" />
-        <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/activity_register.xml" value="0.35989583333333336" />
-        <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/item_pilsen.xml" value="0.35989583333333336" />
-        <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/item_types.xml" value="0.35989583333333336" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.305" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/drawable/background_btnbox.xml" value="0.2555" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/drawable/background_textboxlayout.xml" value="0.2555" />
@@ -17,8 +11,12 @@
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/activity_home.xml" value="0.381025641025641" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/activity_inicial.xml" value="0.38697916666666665" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/activity_initial.xml" value="0.38697916666666665" />
+        <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/activity_lager.xml" value="0.35989583333333336" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/activity_pilsen.xml" value="0.35989583333333336" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/activity_register.xml" value="0.38697916666666665" />
+        <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/item_cerveja.xml" value="0.35989583333333336" />
+        <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/item_pilsen.xml" value="0.35989583333333336" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/item_types.xml" value="0.35989583333333336" />
       </map>
     </option>

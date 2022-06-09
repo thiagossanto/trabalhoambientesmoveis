@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Trabalhoambientesmoveis">
         <activity
+            android:name=".ui.activities.LagerActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.activities.PilsenActivity"
             android:exported="true" />
         <activity
