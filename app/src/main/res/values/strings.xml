@@ -23,10 +23,10 @@
     <string name="lager">Lager</string>
     <string name="puro_malte">Puro Malte</string>
     <string name="amber">Amber</string>
-    <string name="ipa">Ipa</string>
+    <string name="ipa">IPA</string>
     <string name="pre_o">Preço:</string>
     <string name="ingredientes">Ingredientes:</string>
     <string name="ibu">IBU:</string>
     <string name="nome6">Nome:</string>
-    <string name="puro_malte">Puro Malte</string>
+    <string name="amber">Amber</string>
 </resources>

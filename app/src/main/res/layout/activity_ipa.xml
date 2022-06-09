@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activities.AmberActivity"
+    tools:context=".ui.activities.IpaActivity"
     android:background="@color/DarkGrey">
 
     <ImageButton
@@ -17,18 +17,18 @@
         android:src="@drawable/backicon"/>
 
     <TextView
-        android:id="@+id/amber"
+        android:id="@+id/ipa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/amber"
+        android:text="@string/ipa"
         android:textColor="@color/Orange"
         android:textSize="16sp"/>
 
     <ListView
-        android:id="@+id/listAmber"
+        android:id="@+id/listIpa"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/backIcon"
