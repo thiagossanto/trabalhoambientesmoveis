@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Trabalhoambientesmoveis">
         <activity
+            android:name=".ui.activities.IpaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.AmberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.PuroMalteActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.activities.LagerActivity"
             android:exported="true" />
         <activity
