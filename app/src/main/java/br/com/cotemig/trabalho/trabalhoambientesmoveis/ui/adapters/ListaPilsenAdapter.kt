@@ -11,7 +11,7 @@ import br.com.cotemig.trabalho.trabalhoambientesmoveis.R
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Cerveja
 import coil.load
 
-class ListaIpaAdapter (var context: Context, var list: List<Cerveja>) : BaseAdapter() {
+class ListaPilsenAdapter (var context: Context, var list: List<Cerveja>) : BaseAdapter(){
     override fun getCount(): Int {
         return list.size
     }
@@ -26,7 +26,7 @@ class ListaIpaAdapter (var context: Context, var list: List<Cerveja>) : BaseAdap
 
     override fun getView(position: Int, p1: View?, p2: ViewGroup?): View {
 
-        var view = LayoutInflater.from(context).inflate(R.layout.item_ipa, null)
+        var view = LayoutInflater.from(context).inflate(R.layout.item_pilsen, null)
 
         var name = view.findViewById<TextView>(R.id.name)
         name.text = list[position].name
