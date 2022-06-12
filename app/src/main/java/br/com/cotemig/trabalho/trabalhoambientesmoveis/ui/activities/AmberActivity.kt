@@ -37,7 +37,7 @@ class AmberActivity : AppCompatActivity() {
     fun getCerveja(){
 
         var s = RetrofitInitializer().getCervejaService()
-        var call = s.getCerveja()
+        var call = s.getAmber()
 
         call.enqueue(object : retrofit2.Callback<List<Cerveja>>{
             override fun onResponse(call: Call<List<Cerveja>>, response: Response<List<Cerveja>>) {
