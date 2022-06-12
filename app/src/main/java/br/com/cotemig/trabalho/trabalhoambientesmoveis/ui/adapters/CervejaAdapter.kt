@@ -11,7 +11,7 @@ import br.com.cotemig.trabalho.trabalhoambientesmoveis.R
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Cerveja
 import coil.load
 
-class ListaAmberAdapter(var context: Context, var list: List<Cerveja>) : BaseAdapter() {
+class CervejaAdapter (var context: Context, var list: List<Cerveja>) : BaseAdapter() {
 
     override fun getCount(): Int {
         return list.size
@@ -27,13 +27,22 @@ class ListaAmberAdapter(var context: Context, var list: List<Cerveja>) : BaseAda
 
     override fun getView(position: Int, p1: View?, p2: ViewGroup?): View {
 
-        var view = LayoutInflater.from(context).inflate(R.layout.item_amber, null)
+        var view = LayoutInflater.from(context).inflate(R.layout.item_cerveja, null)
 
         var name = view.findViewById<TextView>(R.id.name)
         name.text = list[position].name
 
         var image = view.findViewById<ImageView>(R.id.image)
         image.load(list[position].image)
+
+        var ibu = view.findViewById<TextView>(R.id.ibu)
+        ibu.text = list[position].ibu
+
+        var price = view.findViewById<TextView>(R.id.price)
+        price.text = list[position].price
+
+        var ingredients = view.findViewById<TextView>(R.id.ingredients)
+        ingredients.text = list[position].ingredients
 
         return view
     }

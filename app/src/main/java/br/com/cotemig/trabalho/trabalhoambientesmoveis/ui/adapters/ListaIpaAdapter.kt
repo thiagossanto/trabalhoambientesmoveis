@@ -34,15 +34,6 @@ class ListaIpaAdapter (var context: Context, var list: List<Cerveja>) : BaseAdap
         var image = view.findViewById<ImageView>(R.id.image)
         image.load(list[position].image)
 
-        var ibu = view.findViewById<TextView>(R.id.ibu)
-        ibu.text = list[position].ibu
-
-        var price = view.findViewById<TextView>(R.id.price)
-        price.text = list[position].price
-
-        var ingredients = view.findViewById<TextView>(R.id.ingredients)
-        ingredients.text = list[position].ingredients
-
         return view
     }
 }
