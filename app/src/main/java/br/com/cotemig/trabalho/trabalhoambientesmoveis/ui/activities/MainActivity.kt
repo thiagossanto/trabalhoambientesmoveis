@@ -5,7 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
+import android.widget.ListView
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.R
+import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Cerveja
+import br.com.cotemig.trabalho.trabalhoambientesmoveis.services.RetrofitInitializer
+import retrofit2.Call
+import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,5 +28,7 @@ class MainActivity : AppCompatActivity() {
             finish()
         }, 3000)
 
+
     }
+
 }

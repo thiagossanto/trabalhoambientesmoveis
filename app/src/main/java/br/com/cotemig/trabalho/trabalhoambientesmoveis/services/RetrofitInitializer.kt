@@ -27,10 +27,10 @@ class RetrofitInitializer {
 
     }
 
-//    fun getCervejaService() : CervejaService {
-//
-//        return retrofit.create(CervejaService::class.java)
-//
-//    }
+    fun getCervejaService() : CervejaService {
+
+        return retrofit.create(CervejaService::class.java)
+
+    }
 
 }
