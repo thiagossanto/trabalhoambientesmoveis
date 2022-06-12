@@ -5,7 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.ImageButton
+import android.widget.ListView
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.R
+import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Cerveja
+import br.com.cotemig.trabalho.trabalhoambientesmoveis.services.RetrofitInitializer
+import br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.adapters.ListaAmberAdapter
+import retrofit2.Call
+import retrofit2.Response
 
 class LagerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,5 +30,38 @@ class LagerActivity : AppCompatActivity() {
             finish()
         }
 
+        getCerveja()
+
     }
+
+    fun getCerveja(){
+
+        var s = RetrofitInitializer().getCervejaService()
+        var call = s.getLager()
+
+        call.enqueue(object : retrofit2.Callback<List<Cerveja>>{
+            override fun onResponse(call: Call<List<Cerveja>>, response: Response<List<Cerveja>>) {
+
+                response.body()?.let {
+
+                    showListView(it)
+
+                }
+
+            }
+
+            override fun onFailure(call: Call<List<Cerveja>>, t: Throwable) {
+
+            }
+        })
+
+    }
+
+    fun showListView(list: List<Cerveja>){
+
+        var cerveja = findViewById<ListView>(R.id.listLager)
+        cerveja.adapter = ListaAmberAdapter(this, list)
+
+    }
+
 }
