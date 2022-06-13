@@ -4,9 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ListView
+import android.widget.Toast
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.R
+import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Account
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Cerveja
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.services.RetrofitInitializer
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.adapters.ListaAmberAdapter
@@ -25,12 +28,18 @@ class PilsenActivity : AppCompatActivity() {
 
         var backIcon = findViewById<ImageButton>(R.id.backIcon)
         backIcon.setOnClickListener {
-            var intent = Intent(this, InitialActivity::class.java)
-            startActivity(intent)
-            finish()
+            startInitial(Account())
         }
 
         getCerveja()
+
+    }
+
+    fun startInitial(account: Account){
+
+        var intent = Intent(this, InitialActivity::class.java)
+        intent.putExtra("account", account)
+        startActivity(intent)
 
     }
 
