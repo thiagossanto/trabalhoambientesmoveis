@@ -6,13 +6,13 @@ import retrofit2.http.GET
 
 interface CervejaService {
 
-    @GET("77d12f18-a8de-4530-8083-4c9f0619a2ac")
+    @GET("edffab62-efe0-4800-b557-b702b928c98e")
     fun getAmber(): Call<List<Cerveja>>
 
-    @GET("1d93d005-f21e-4bd4-a22d-d94bee863e80")
+    @GET("16be29ba-7126-4623-b9f6-d277f51b9318")
     fun getIpa(): Call<List<Cerveja>>
 
-    @GET("3269739b-8b6e-42e9-bb1e-9fde669c83bf")
+    @GET("2207b7cf-a062-46e3-b54f-2be2175c3b44")
     fun getLager(): Call<List<Cerveja>>
 
     @GET("6fbd0677-18b5-4497-840d-6983c923c492")

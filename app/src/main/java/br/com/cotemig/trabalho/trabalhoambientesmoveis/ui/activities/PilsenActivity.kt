@@ -13,6 +13,7 @@ import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Account
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Cerveja
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.services.RetrofitInitializer
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.adapters.ListaAmberAdapter
+import br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.adapters.ListaPilsenAdapter
 import retrofit2.Call
 import retrofit2.Response
 
@@ -32,6 +33,17 @@ class PilsenActivity : AppCompatActivity() {
         }
 
         getCerveja()
+
+//        var listPilsen = findViewById<ListView>(R.id.listPilsen)
+//        listPilsen.adapter = ListaPilsenAdapter(this, lista)
+//
+//        listPilsen.setOnItemClickListener { adapterView, view, i, l ->
+//
+//            var intent = Intent(this, DetalheActivity::class.java)
+//            intent.putExtra("time", lista[i])
+//            startActivity(intent)
+//
+//        }
 
     }
 
