@@ -33,6 +33,6 @@
         android:layout_height="match_parent"
         android:layout_below="@id/backIcon"
         android:layout_marginTop="10dp"
-        android:divider="@color/transparente"/>
+        android:divider="@color/transparent"/>
 
 </RelativeLayout>

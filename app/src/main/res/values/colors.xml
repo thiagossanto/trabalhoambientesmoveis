@@ -8,11 +8,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
     <color name="transparent">#00FFFFFF</color>
     <color name="DarkGrey">#252525</color>
     <color name="Grey">#C5C5C5</color>
     <color name="Orange">#FEAA31</color>
     <color name="WhiteLow">#F5F5F5</color>
-    <color name="transparente">#00000000</color>
 
 </resources>

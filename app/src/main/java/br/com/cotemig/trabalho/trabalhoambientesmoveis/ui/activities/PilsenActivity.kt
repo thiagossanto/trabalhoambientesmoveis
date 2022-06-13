@@ -34,6 +34,7 @@ class PilsenActivity : AppCompatActivity() {
 
         getCerveja()
 
+
 //        var listPilsen = findViewById<ListView>(R.id.listPilsen)
 //        listPilsen.adapter = ListaPilsenAdapter(this, lista)
 //
