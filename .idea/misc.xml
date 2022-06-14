@@ -4,11 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/activity_amber.xml" value="0.20416666666666666" />
+        <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/activity_detalhe.xml" value="0.25" />
+        <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/activity_initial.xml" value="0.25" />
+        <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/activity_pilsen.xml" value="0.1" />
+        <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/activity_puro_malte.xml" value="0.20416666666666666" />
         <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/item_amber.xml" value="0.1" />
         <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/item_cerveja.xml" value="0.20416666666666666" />
         <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/item_ipa.xml" value="0.20416666666666666" />
         <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/item_lager.xml" value="0.20416666666666666" />
+        <entry key="..\:/Faculdade/Mobilha/trabalhoambientesmoveis/app/src/main/res/layout/item_lista.xml" value="0.20416666666666666" />
         <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/activity_amber.xml" value="0.26614583333333336" />
         <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/activity_detalhe.xml" value="0.35989583333333336" />
         <entry key="..\:/Mobilha/trabs/trabalhoambientesmoveis/app/src/main/res/layout/activity_forgot.xml" value="0.35989583333333336" />
@@ -37,7 +44,6 @@
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/activity_register.xml" value="0.38697916666666665" />
         <entry key="..\:/ambientesmoveis/trabalhoambientesmoveis/app/src/main/res/layout/item_types.xml" value="0.35989583333333336" />
         <entry key="..\:/facul/trabalhoambientesmoveis/app/src/main/res/layout/activity_amber.xml" value="0.27447916666666666" />
-        <entry key="..\:/facul/trabalhoambientesmoveis/app/src/main/res/layout/activity_detalhe.xml" value="0.27447916666666666" />
         <entry key="..\:/facul/trabalhoambientesmoveis/app/src/main/res/layout/activity_forgot.xml" value="0.27447916666666666" />
         <entry key="..\:/facul/trabalhoambientesmoveis/app/src/main/res/layout/activity_home.xml" value="0.27447916666666666" />
         <entry key="..\:/facul/trabalhoambientesmoveis/app/src/main/res/layout/activity_initial.xml" value="0.27447916666666666" />
