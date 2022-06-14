@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Trabalhoambientesmoveis">
         <activity
-            android:name=".InfoActivity"
+            android:name=".ui.activities.InfoActivity"
             android:exported="false" />
         <activity
             android:name=".ui.activities.DetalheActivity"
