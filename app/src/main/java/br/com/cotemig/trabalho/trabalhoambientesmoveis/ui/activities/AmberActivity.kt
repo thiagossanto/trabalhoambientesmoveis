@@ -69,6 +69,16 @@ class AmberActivity : AppCompatActivity() {
         var cerveja = findViewById<ListView>(R.id.listAmber)
         cerveja.adapter = ListaAdapter(this, list)
 
+//        var cerveja = findViewById<ListView>(R.id.listPilsen)
+//        cerveja.adapter = ListaAdapter(this, list)
+//
+//        cerveja.setOnItemClickListener { adapterView, view, i, l ->
+//            var intent = Intent(this, DetalheActivity::class.java)
+//
+//            intent.putExtra("cerveja", list[i].image)
+//            startActivity(intent)
+//        }
+
     }
 
 }
