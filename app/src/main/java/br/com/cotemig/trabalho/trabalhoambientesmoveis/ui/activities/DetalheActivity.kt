@@ -3,29 +3,20 @@ package br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.activities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.WindowManager
-import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ListView
-import android.widget.Toast
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.R
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Account
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Cerveja
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.services.RetrofitInitializer
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.adapters.ListaAmberAdapter
-import br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.adapters.ListaPilsenAdapter
 import retrofit2.Call
 import retrofit2.Response
 
-class PilsenActivity : AppCompatActivity() {
+class DetalheActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pilsen)
-
-        window.setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
-        )
+        setContentView(R.layout.activity_detalhe)
 
         var backIcon = findViewById<ImageButton>(R.id.backIcon)
         backIcon.setOnClickListener {
@@ -33,6 +24,7 @@ class PilsenActivity : AppCompatActivity() {
         }
 
         getCerveja()
+
     }
 
     fun startInitial(account: Account){
@@ -68,9 +60,10 @@ class PilsenActivity : AppCompatActivity() {
 
     fun showListView(list: List<Cerveja>){
 
-        var cerveja = findViewById<ListView>(R.id.listPilsen)
+        var cerveja = findViewById<ListView>(R.id.listDetalhe)
         cerveja.adapter = ListaAmberAdapter(this, list)
 
     }
+
 
 }
