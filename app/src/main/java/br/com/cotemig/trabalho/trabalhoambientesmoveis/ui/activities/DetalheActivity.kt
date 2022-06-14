@@ -38,7 +38,7 @@ class DetalheActivity : AppCompatActivity() {
     fun getCerveja(){
 
         var s = RetrofitInitializer().getCervejaService()
-        var call = s.getPilsen()
+        var call = s.getDetalhe()
 
         call.enqueue(object : retrofit2.Callback<List<Cerveja>>{
             override fun onResponse(call: Call<List<Cerveja>>, response: Response<List<Cerveja>>) {

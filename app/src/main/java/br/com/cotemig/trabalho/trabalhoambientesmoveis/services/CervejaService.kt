@@ -20,4 +20,8 @@ interface CervejaService {
 
     @GET("b204f5ed-c66c-4036-9731-92772c2d4839")
     fun getPuroMalte(): Call<List<Cerveja>>
+
+    @GET("2add7b1e-e17e-44c7-8515-d7c5c184a3b8")
+    fun getDetalhe(): Call<List<Cerveja>>
+
 }
