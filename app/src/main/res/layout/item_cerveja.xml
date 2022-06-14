@@ -4,14 +4,6 @@
     android:layout_height="match_parent"
     android:background="@color/DarkGrey">
 
-    <ImageButton
-        android:id="@+id/backIcon"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:background="@color/transparent"
-        android:src="@drawable/backicon" />
 
     <ImageView
         android:id="@+id/image"

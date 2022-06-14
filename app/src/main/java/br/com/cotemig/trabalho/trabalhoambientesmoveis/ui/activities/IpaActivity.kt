@@ -11,6 +11,7 @@ import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Account
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Cerveja
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.services.RetrofitInitializer
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.adapters.ListaAmberAdapter
+import br.com.cotemig.trabalho.trabalhoambientesmoveis.ui.adapters.ListaIpaAdapter
 import retrofit2.Call
 import retrofit2.Response
 
@@ -67,7 +68,7 @@ class IpaActivity : AppCompatActivity() {
     fun showListView(list: List<Cerveja>){
 
         var cerveja = findViewById<ListView>(R.id.listIpa)
-        cerveja.adapter = ListaAmberAdapter(this, list)
+        cerveja.adapter = ListaIpaAdapter(this, list)
 
     }
 

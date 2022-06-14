@@ -69,7 +69,7 @@ class PilsenActivity : AppCompatActivity() {
     fun showListView(list: List<Cerveja>){
 
         var cerveja = findViewById<ListView>(R.id.listPilsen)
-        cerveja.adapter = ListaAmberAdapter(this, list)
+        cerveja.adapter = ListaPilsenAdapter(this, list)
 
     }
 
