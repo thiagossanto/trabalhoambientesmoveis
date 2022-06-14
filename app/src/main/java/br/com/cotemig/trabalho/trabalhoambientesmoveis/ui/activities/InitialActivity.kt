@@ -64,6 +64,13 @@ class InitialActivity : AppCompatActivity() {
             finish()
         }
 
+        var btnDetalhe = findViewById<Button>(R.id.btnDetalhe)
+        btnDetalhe.setOnClickListener {
+            var intent = Intent(this, DetalheActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 
 }
