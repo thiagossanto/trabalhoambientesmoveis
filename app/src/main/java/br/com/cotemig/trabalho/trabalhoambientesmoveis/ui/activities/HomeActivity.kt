@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.R
 import br.com.cotemig.trabalho.trabalhoambientesmoveis.models.Account
@@ -38,6 +39,13 @@ class HomeActivity : AppCompatActivity() {
         var btnRegister = findViewById<Button>(R.id.btnRegister)
         btnRegister.setOnClickListener {
             var intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        var imageInfo = findViewById<ImageButton>(R.id.imageInfo)
+        imageInfo.setOnClickListener {
+            var intent = Intent(this, InfoActivity::class.java)
             startActivity(intent)
             finish()
         }

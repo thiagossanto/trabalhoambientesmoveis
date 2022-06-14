@@ -7,6 +7,16 @@
     tools:context=".ui.activities.HomeActivity"
     android:background="@color/DarkGrey">
 
+    <ImageButton
+        android:id="@+id/imageInfo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="215dp"
+        android:background="@color/transparent"
+        android:src="@drawable/info"/>
+
     <ImageView
         android:id="@+id/ImageTop"
         android:layout_width="match_parent"

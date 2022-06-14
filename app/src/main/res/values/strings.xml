@@ -30,4 +30,8 @@
     <string name="amber">Amber</string>
     <string name="informa_es">Informações</string>
     <string name="detalhes_cervejas">Detalhes Cervejas :)</string>
+    <string name="asss">Informações</string>
+    <string name="informa_es_do_app">Informações do app</string>
+    <string name="textao">Neste App utilizamos APIs criada por nós mesmos no Site \'mocky\'.\n Aplicamos também uma API feita pelo professor Dirceu para a realização do cadastro do Usuário.</string>
+    <string name="app_produzido_por_thiago_silv_rio_alexandre_de_souza_e_gabriel_gonzalez">App produzido por: Thiago Silvério, Alexandre de Souza e Gabriel Gonzalez</string>
 </resources>

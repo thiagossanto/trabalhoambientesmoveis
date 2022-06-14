@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.HomeActivity"
+    android:background="@color/DarkGrey">
+
+    <ImageButton
+        android:id="@+id/backIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/transparent"
+        android:src="@drawable/backicon">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/labelInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:textSize="16sp"
+        android:text="@string/asss"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/Orange">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ImageTop"
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:background="@color/DarkGrey">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/labelTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageTop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/informa_es_do_app"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/Orange"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/labelTopDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/labelTop"
+        android:layout_marginTop="40dp"
+        android:text="@string/textao"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/WhiteLow"
+        android:textAllCaps="false"
+        android:textStyle="normal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/labelDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/labelTopDescription"
+        android:layout_marginTop="50dp"
+        android:text="@string/app_produzido_por_thiago_silv_rio_alexandre_de_souza_e_gabriel_gonzalez"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/Orange"
+        android:textAllCaps="false"
+        android:textStyle="normal">
+    </TextView>
+
+</RelativeLayout>
